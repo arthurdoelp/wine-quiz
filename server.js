@@ -1,11 +1,13 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-const bodyParser = require('body-parser')
+const bodyParser = require('body-parser');
+const morgan = require('morgan')
 
 const mongoose = require('mongoose');
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/wine-quiz", { useNewUrlParser: true });
 
+app.use(morgan('dev'));
     app.use("/public", express.static(path.join(__dirname, 'public')));
     app.use(
         bodyParser.urlencoded({

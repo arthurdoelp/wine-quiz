@@ -1,0 +1,29 @@
+.unit-container {
+    padding: 5%;
+    margin: 1%;
+    font-family: 'museo-sans-rounded', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #4C4C4C;
+}
+
+.image-container {
+    margin-bottom: 10%;
+    position: relative;
+}
+
+.image {
+    width: 100%;
+}
+
+.number {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+}

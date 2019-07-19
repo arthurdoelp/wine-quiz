@@ -38,31 +38,31 @@
     {
         "id": 7,
         "title": "France",
-        "image": "../Images/French-Flag.png",
+        "image": "../images/French-Flag.png",
         "link": "Fry Cook"
     },
     {
         "id": 8,
         "title": "Italy",
-        "image": "../Images/Italian-Flag.png",
+        "image": "../images/Italian-Flag.png",
         "link": "Fry Cook"
     },
     {
         "id": 9,
         "title": "Spain",
-        "image": "../Images/Spain-Flag.png",
+        "image": "../images/Spain-Flag.png",
         "link": "Fry Cook"
     },
     {
         "id": 10,
         "title": "Germany",
-        "image": "../Images/German-Flag.png",
+        "image": "../images/German-Flag.png",
         "link": "Fry Cook"
     },
     {
         "id": 11,
         "title": "Portugal",
-        "image": "../Images/Portugal-Flag.png",
+        "image": "../images/Portugal-Flag.png",
         "link": "Fry Cook"
     },
     {
@@ -80,7 +80,7 @@
     {
         "id": 14,
         "title": "USA",
-        "image": "../Images/USA-Flag.png",
+        "image": "../images/USA-Flag.png",
         "link": "Fry Cook"
     },
     {
@@ -98,19 +98,19 @@
     {
         "id": 17,
         "title": "South Africa",
-        "image": "../Images/South-Africa-Flag.png",
+        "image": "../images/South-Africa-Flag.png",
         "link": "Fry Cook"
     },
     {
         "id": 18,
         "title": "Chile",
-        "image": "../Images/Chile-Flag.png",
+        "image": "../images/Chile-Flag.png",
         "link": "Fry Cook"
     },
     {
         "id": 19,
         "title": "Argentina",
-        "image": "../Images/Argentina-Flag.png",
+        "image": "../images/Argentina-Flag.png",
         "link": "Fry Cook"
     }
 ]

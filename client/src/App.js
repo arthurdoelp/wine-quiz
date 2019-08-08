@@ -6,6 +6,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar/index";
 import Lessons from "./pages/Lessons/index";
+import SkillsOverview from "./pages/SkillsOverview/index";
 
 class App extends Component {
 render() {
@@ -28,7 +29,8 @@ render() {
         </a>
       </header>
       <Switch>
-        <Route exact path="/lessons" render={() => <Lessons />}></Route>
+        <Route exact path="/lessons" component={Lessons}></Route>
+        <Route path="/lessons/:unitTitle" component={SkillsOverview}></Route>
       </Switch>
     </div>
     </Router>

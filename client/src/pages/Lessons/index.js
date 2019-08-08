@@ -9,20 +9,20 @@ class Lessons extends Component {
     }
     render() {
         return (
-            <div className="container">
-                <div className="row">
-                    <div className="col-sm-12 col-md-12 col-lg-12">
-                        <p>hi</p>
-                        {this.state.unitdata.map(unit => (
-                            <Units
-                                id={unit.id}
-                                title={unit.title}
-                                image={unit.image}
-                            />
-                        ))}
+                <div className="container">
+                    <div className="row">
+                        <div className="col-sm-12 col-md-12 col-lg-12">
+                            <p>hi</p>
+                            {this.state.unitdata.map(unit => (
+                                <Units
+                                    id={unit.id}
+                                    title={unit.title}
+                                    image={unit.image}
+                                />
+                            ))}
+                        </div>
                     </div>
                 </div>
-            </div>
         );
     }
 }

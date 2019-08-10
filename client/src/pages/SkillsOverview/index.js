@@ -7,14 +7,31 @@ import Skills from "../../components/Skills/index.js";
 
 class SkillsOverview extends Component {
     state = {
-        skillsdata
+        skillsdata,
+        unit: ""
+    }
+
+    componentWillMount() {
+        localStorage.getItem("unit") && this.setState({ unit: localStorage.getItem("unit") });
     }
 
     componentDidMount() {
-        const skillsdata = this.state.skillsdata.filter(skill => skill.unit === window.location.pathname.slice(9).replace(/%20/g, " "));
+        const skillsdata = this.state.skillsdata.filter(skill => skill.unit === this.state.unit);
         this.setState({ skillsdata });
-        console.log(window.location.pathname.slice(9).replace(/%20/g, " "));
+        // console.log(window.location.pathname.slice(9).replace(/%20/g, " "));
+        console.log(this.state.unit);
     }
+
+    clickedSkill = title => {
+        console.log(title);
+        if (title) {
+            localStorage.setItem("skill", title);
+        }
+    }
+
+    // componentWillUpdate(nextProps, nextState) {
+    //     localStorage.setItem("unit", JSON.stringify(window.location.pathname.slice(9).replace(/%20/g, " ")));
+    // }
 
     render() {
         return (
@@ -24,6 +41,7 @@ class SkillsOverview extends Component {
                             <p>These are the Skills!</p>
                             {this.state.skillsdata.map(skill => (
                                 <Skills
+                                    clickedSkill={this.clickedSkill}
                                     id={skill.id}
                                     title={skill.title}
                                     image={skill.image}

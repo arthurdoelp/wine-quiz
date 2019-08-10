@@ -7,6 +7,14 @@ class Lessons extends Component {
     state = {
         unitdata
     }
+
+    clickedUnit = title => {
+        console.log(title);
+        if (title) {
+            localStorage.setItem("unit", title);
+        }
+    }
+
     render() {
         return (
                 <div className="container">
@@ -15,6 +23,7 @@ class Lessons extends Component {
                             <p>hi</p>
                             {this.state.unitdata.map(unit => (
                                 <Units
+                                    clickedUnit={this.clickedUnit}
                                     id={unit.id}
                                     title={unit.title}
                                     image={unit.image}

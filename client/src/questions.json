@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "unit": "Introduction",
+        "skill": "Basic 1",
+        "questionId": 1,
+        "question": "What is the only international grape variety to have originated outside of France?",
+        "answer1": "Chardonnay",
+        "answer2": "Merlot",
+        "answer3": "Riesling",
+        "answer4": "Syrah",
+        "correctAnswer": "Riesling"
+    },
+    {
+        "id": 2,
+        "unit": "Introduction",
+        "skill": "Basic 1",
+        "questionId": 2,
+        "question": "What is the international white grape variety that has the heaviest body and lowest acidity?",
+        "answer1": "Riesling",
+        "answer2": "Sauvignon Blanc",
+        "answer3": "Pinot Grigio",
+        "answer4": "Chardonnay",
+        "correctAnswer": "Chardonnay"
+    },
+    {
+        "id": 3,
+        "unit": "Introduction",
+        "skill": "Basic 1",
+        "questionId": 3,
+        "question": "What is the international red grape variety with the lowest amount of tannins, thinnest skins, and highest acidity?",
+        "answer1": "Pinot Noir",
+        "answer2": "Syrah",
+        "answer3": "Merlot",
+        "answer4": "Cabernet Sauvignon",
+        "correctAnswer": "Syrah"
+    },
+    {
+        "id": 4,
+        "unit": "Introduction",
+        "skill": "Basic 2",
+        "questionId": 1,
+        "question": "Who are you?",
+        "answer1": "Pinot Noir",
+        "answer2": "Syrah",
+        "answer3": "Merlot",
+        "answer4": "Cabernet Sauvignon",
+        "correctAnswer": "Syrah"
+    },
+    {
+        "id": 5,
+        "unit": "History of Wine",
+        "skill": "800s",
+        "questionId": 1,
+        "question": "What are you doing here?",
+        "answer1": "Pinot Noir",
+        "answer2": "Syrah",
+        "answer3": "Merlot",
+        "answer4": "Cabernet Sauvignon",
+        "correctAnswer": "Syrah"
+    }
+]

@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar/index";
 import Lessons from "./pages/Lessons/index";
 import SkillsOverview from "./pages/SkillsOverview/index";
+import Quizzes from "./pages/Quizzes/index";
 
 class App extends Component {
 render() {
@@ -30,7 +31,8 @@ render() {
       </header>
       <Switch>
         <Route exact path="/lessons" component={Lessons}></Route>
-        <Route path="/lessons/:unitTitle" component={SkillsOverview}></Route>
+        <Route exact path="/lessons/:unitTitle" component={SkillsOverview}></Route>
+        <Route path="/lessons/:unitTitle/:skillTitle" component={Quizzes}></Route>
       </Switch>
     </div>
     </Router>

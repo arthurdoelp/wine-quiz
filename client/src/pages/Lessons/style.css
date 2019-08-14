@@ -1,0 +1,16 @@
+.container {
+    font-family: 'museo-sans-rounded', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #4C4C4C;
+}
+
+.scroll-container {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.scroll-units {
+    display: inline-block;
+}

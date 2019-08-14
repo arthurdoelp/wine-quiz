@@ -15,20 +15,6 @@ render() {
     <Router>
     <div className="App">
       <Navbar></Navbar>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          This will be a login component
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
       <Switch>
         <Route exact path="/lessons" component={Lessons}></Route>
         <Route exact path="/lessons/:unitTitle" component={SkillsOverview}></Route>

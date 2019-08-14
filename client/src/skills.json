@@ -47,5 +47,61 @@
         "image": "../Images/food-icon1.png",
         "unit": "Viticulture",
         "unitId": 2
+    },
+    {
+        "id": 8,
+        "title": "History of Country & Wine",
+        "image": "../Images/food-icon1.png",
+        "unit": "Germany",
+        "unitId": 1
+    },
+    {
+        "id": 9,
+        "title": "Climates",
+        "image": "../Images/food-icon1.png",
+        "unit": "Germany",
+        "unitId": 2
+    },
+    {
+        "id": 10,
+        "title": "Wine Laws",
+        "image": "../Images/food-icon1.png",
+        "unit": "Germany",
+        "unitId": 3
+    },
+    {
+        "id": 11,
+        "title": "Varietals",
+        "image": "../Images/food-icon1.png",
+        "unit": "Germany",
+        "unitId": 4
+    },
+    {
+        "id": 12,
+        "title": "Regions/Geography",
+        "image": "../Images/food-icon1.png",
+        "unit": "Germany",
+        "unitId": 5
+    },
+    {
+        "id": 13,
+        "title": "Common Dishes",
+        "image": "../Images/food-icon1.png",
+        "unit": "Germany",
+        "unitId": 6
+    },
+    {
+        "id": 14,
+        "title": "Food & Wine Pairings",
+        "image": "../Images/food-icon1.png",
+        "unit": "Germany",
+        "unitId": 7
+    },
+    {
+        "id": 15,
+        "title": "Current Climate",
+        "image": "../Images/food-icon1.png",
+        "unit": "Germany",
+        "unitId": 8
     }
 ]

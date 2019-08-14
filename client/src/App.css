@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-family: 'museo-sans-rounded', sans-serif;
+  font-style: normal;
 }
 
 .App-logo {

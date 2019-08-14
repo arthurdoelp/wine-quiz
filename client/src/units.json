@@ -86,13 +86,13 @@
     {
         "id": 15,
         "title": "Australia",
-        "image": "../Images/food-icon1.png",
+        "image": "../images/Australia-Flag.png",
         "link": "Fry Cook"
     },
     {
         "id": 16,
         "title": "New Zealand",
-        "image": "../Images/food-icon1.png",
+        "image": "../images/New-Zealand-Flag.png",
         "link": "Fry Cook"
     },
     {

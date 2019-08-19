@@ -14,3 +14,12 @@
 .scroll-units {
     display: inline-block;
 }
+
+.ad-container {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+    border-color: #DDDDDD;
+    padding: 20% 20% 20% 0;
+    margin: 10% 10% 10% 0;
+}

@@ -3,6 +3,8 @@ import React, { Component } from "react";
 import Units from "../../components/Units/index";
 import unitdata from "../../units.json";
 import "./style.css";
+import Footer from "../../components/Footer/index";
+import Navbar from "../../components/Navbar/index";
 
 class Lessons extends Component {
     state = {
@@ -18,6 +20,8 @@ class Lessons extends Component {
 
     render() {
         return (
+            <div>
+                <Navbar></Navbar>
             <div className="container">
                 <div className="row">
                     <h1>Units</h1>
@@ -35,7 +39,17 @@ class Lessons extends Component {
                         ))}
 
                     </div>
+                    <div className="row">
+                        <div className="col-sm-8 col-md-8 col-lg-8">
+
+                        </div>
+                        <div className="ad-container col-sm-4 col-md-4 col-lg-4">
+                            <p>Ad goes here</p>
+                        </div>
+                    </div>
                 </div>
+            </div>
+                <Footer></Footer>
             </div>
         );
     }

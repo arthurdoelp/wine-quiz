@@ -17,7 +17,6 @@
     text-decoration: none;
 }
 
-
 #progress-bar {
     height: 17px;
     background-color: #7AC70C;
@@ -38,6 +37,10 @@
     text-align: left;
     font-weight: 500;
     margin: 5% 0 2% 20%;
+}
+
+.question-header a {
+    font-size: 12px;
 }
 
 .button-section {

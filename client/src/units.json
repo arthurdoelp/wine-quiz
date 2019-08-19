@@ -2,19 +2,19 @@
     {
         "id": 1,
         "title": "Introduction",
-        "image": "../Images/food-icon1.png",
+        "image": "../Images/Introduction.png",
         "link": "Fry Cook"
     },
     {
         "id": 2,
         "title": "History of Wine",
-        "image": "../Images/food-icon1.png",
+        "image": "../Images/History-of-wine.png",
         "link": "Fry Cook"
     },
     {
         "id": 3,
         "title": "Viticulture",
-        "image": "../Images/food-icon1.png",
+        "image": "../Images/Viticulture.png",
         "link": "Fry Cook"
     },
     {
@@ -32,7 +32,7 @@
     {
         "id": 6,
         "title": "Food & Wine Pairing",
-        "image": "../Images/food-icon1.png",
+        "image": "../Images/Food-and-wine-pairing.png",
         "link": "Fry Cook"
     },
     {

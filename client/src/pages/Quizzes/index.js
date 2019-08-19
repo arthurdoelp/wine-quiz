@@ -5,6 +5,7 @@ import React, { Component } from "react";
 import questionsdata from "../../questions.json";
 import "./style.css";
 // import Skills from "../../components/Skills/index.js";
+import Navbar from "../../components/Navbar/index";
 
 class Quizzes extends Component {
     state = {
@@ -157,6 +158,7 @@ class Quizzes extends Component {
 
         return (
             <div>
+                <Navbar></Navbar>
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-1 col-md-1 col-lg-1">
@@ -171,7 +173,7 @@ class Quizzes extends Component {
                             <div className="question-header">
                                 <h2>Mark the correct answer</h2>
                                 {/*The Q&As */}
-                                <h7>{this.state.questionsdata[this.state.questionCount].question}</h7>
+                                <h7>{this.state.questionsdata[this.state.questionCount].question} <a href="/references">{this.state.questionsdata[this.state.questionCount].reference}</a></h7>
                             </div>
                             <div className="button-section">
                                 <button id="button1" className="custom-btn" disabled={this.state.showResults ? true : false} value={this.state.questionsdata[this.state.questionCount].answer1} onClick={() => this.button1Clicked()}><span>1</span>{this.state.questionsdata[this.state.questionCount].answer1}</button>

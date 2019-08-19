@@ -4,6 +4,8 @@ import React, { Component } from "react";
 //import unitdata from "../../units.json";
 import skillsdata from "../../skills.json";
 import Skills from "../../components/Skills/index.js";
+import Navbar from "../../components/Navbar/index";
+import Footer from "../../components/Footer/index";
 
 class SkillsOverview extends Component {
     state = {
@@ -35,10 +37,11 @@ class SkillsOverview extends Component {
 
     render() {
         return (
+            <div>
+                <Navbar></Navbar>
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-12 col-md-12 col-lg-12">
-                            <p>These are the Skills!</p>
                             {this.state.skillsdata.map(skill => (
                                 <Skills
                                     clickedSkill={this.clickedSkill}
@@ -52,6 +55,8 @@ class SkillsOverview extends Component {
                         </div>
                     </div>
                 </div>
+                <Footer></Footer>
+            </div>
         );
     }
 }

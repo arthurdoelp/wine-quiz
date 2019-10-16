@@ -48,8 +48,10 @@ class Quizzes extends Component {
     check() {
         if (this.state.answer === this.state.questionsdata[this.state.questionCount].correctAnswer) {
             this.setState({ answerResult: "correct" });
+            this.setState({ correctAnswers: this.state.correctAnswers + 1 });
         } else if (this.state.answer !== this.state.questionsdata[this.state.questionCount].correctAnswer) {
             this.setState({ answerResult: "wrong" });
+            this.setState({ wrongAnswers: this.state.wrongAnswers + 1 });
         } else if (this.state.answer === "") {
             this.setState({ answerResult: "no-input" });
         }
@@ -155,6 +157,7 @@ class Quizzes extends Component {
         let progressReflection = {
             width: progressBar - 50
         }
+        let finalScorePercent = (this.state.correctAnswers / this.state.questionsdata.length) * 100;
 
         return (
             <div>
@@ -162,7 +165,7 @@ class Quizzes extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-1 col-md-1 col-lg-1">
-                        <a href={`/lessons/${this.state.unit}`}><span id="close-quiz">&times;</span></a>
+                            <a href={`/lessons/${this.state.unit}`}><span id="close-quiz">&times;</span></a>
                         </div>
                         <div className="col-sm-11 col-md-11 col-lg-11">
                             <div id="progress-bar-container">
@@ -184,7 +187,7 @@ class Quizzes extends Component {
                             {/*The modal */}
                             {this.state.showFinalResults ?
                                 <div>
-                                    <button type="button" className="btn btn-outline-success btn-lg" data-toggle="modal" data-target="#myModal">View Results</button>
+
 
                                     <div className="modal fade" id="myModal" role="dialog">
                                         <div className="modal-dialog">
@@ -195,12 +198,12 @@ class Quizzes extends Component {
                                                     <a href={`/lessons/${this.state.unit}`}><button type="button" className="close">&times;</button></a>
                                                 </div>
                                                 <div className="modal-body">
-                                                    <p>These are the results</p>
                                                     <h5>Correct: {this.state.correctAnswers}</h5>
                                                     <h5>Wrong: {this.state.wrongAnswers}</h5>
+                                                    <h1>Score: {finalScorePercent}%</h1>
                                                 </div>
                                                 <div className="modal-footer">
-                                                    <a href={`/lessons/${this.state.unit}`}><button type="button" className="btn btn-outline-info">Continue</button></a>
+                                                    <a href={`/lessons/${this.state.unit}`}><button type="button" className="custom-btn">Continue</button></a>
                                                 </div>
                                             </div>
 
@@ -222,6 +225,11 @@ class Quizzes extends Component {
                             </div>
                             :
                             <button className={this.state.toggleCheck ? "check-btn-disabled" : "check-btn"} onClick={() => this.check()} disabled={this.state.toggleCheck}>CHECK</button>
+                        }
+                        {this.state.showFinalResults ?
+                            <button type="button" className="next-question-btn" data-toggle="modal" data-target="#myModal">View Results</button>
+                            :
+                            null
                         }
                     </footer>
                 </div>

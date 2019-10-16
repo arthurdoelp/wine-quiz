@@ -5,11 +5,10 @@ function Navbar(props) {
     return (
         <div>
             <ul>
-                <li><a href="/">Wine Quiz</a></li>
-                <li><a href="/lessons">Home</a></li>
+                <li><a className="navbar-brand" href="/"><img src="./../../images/Usommelier-logo2.svg" height="40" alt=""></img></a></li>
                 <li><a href="/lessons">Lessons</a></li>
-                <li><a href="/practice">Practice</a></li>
-                <li><a className="settings-btn" href="/settings">Settings</a></li>
+                {/* <li><a href="/practice">Practice</a></li>
+                <li><a className="settings-btn" href="/settings">Settings</a></li> */}
             </ul>
             {/* <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="dkd">Wine Quiz</a>

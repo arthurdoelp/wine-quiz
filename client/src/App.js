@@ -9,6 +9,7 @@ import Lessons from "./pages/Lessons/index";
 import SkillsOverview from "./pages/SkillsOverview/index";
 import Quizzes from "./pages/Quizzes/index";
 import ReferencesPage from "./pages/ReferencesPage/index";
+import HomePage from "./pages/HomePage/index";
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <Switch>
+            <Route exact path="/" component={HomePage}></Route>
             <Route exact path="/references" component={ReferencesPage}></Route>
             <Route exact path="/lessons" component={Lessons}></Route>
             <Route exact path="/lessons/:unitTitle" component={SkillsOverview}></Route>

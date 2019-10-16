@@ -3,114 +3,114 @@
         "id": 1,
         "title": "Introduction",
         "image": "../images/Introduction.png",
-        "link": "Fry Cook"
+        "locked": false
     },
     {
         "id": 2,
         "title": "History of Wine",
         "image": "../images/History-of-wine.png",
-        "link": "Fry Cook"
+        "locked": true
     },
     {
         "id": 3,
         "title": "Viticulture",
         "image": "../images/Viticulture.png",
-        "link": "Fry Cook"
+        "locked": true
     },
     {
         "id": 4,
         "title": "Viniculture",
-        "image": "../images/food-icon1.png",
-        "link": "Fry Cook"
+        "image": "",
+        "locked": true
     },
     {
         "id": 5,
         "title": "Tasting Wine",
         "image": "../images/food-icon1.png",
-        "link": "Fry Cook"
+        "locked": true
     },
     {
         "id": 6,
         "title": "Food & Wine Pairing",
         "image": "../images/Food-and-wine-pairing.png",
-        "link": "Fry Cook"
+        "locked": true
     },
     {
         "id": 7,
         "title": "France",
         "image": "../images/French-Flag.png",
-        "link": "Fry Cook"
+        "locked": true
     },
     {
         "id": 8,
         "title": "Italy",
         "image": "../images/Italian-Flag.png",
-        "link": "Fry Cook"
+        "locked": true
     },
     {
         "id": 9,
         "title": "Spain",
         "image": "../images/Spain-Flag.png",
-        "link": "Fry Cook"
+        "locked": true
     },
     {
         "id": 10,
         "title": "Germany",
         "image": "../images/German-Flag.png",
-        "link": "Fry Cook"
+        "locked": true
     },
     {
         "id": 11,
         "title": "Portugal",
         "image": "../images/Portugal-Flag.png",
-        "link": "Fry Cook"
+        "locked": true
     },
     {
         "id": 12,
         "title": "Austria, Hungary, Greece",
         "image": "../images/food-icon1.png",
-        "link": "Fry Cook"
+        "locked": true
     },
     {
         "id": 13,
         "title": "Old World vs. New World",
         "image": "../images/food-icon1.png",
-        "link": "Fry Cook"
+        "locked": true
     },
     {
         "id": 14,
         "title": "USA",
         "image": "../images/USA-Flag.png",
-        "link": "Fry Cook"
+        "locked": true
     },
     {
         "id": 15,
         "title": "Australia",
         "image": "../images/Australia-Flag.png",
-        "link": "Fry Cook"
+        "locked": true
     },
     {
         "id": 16,
         "title": "New Zealand",
         "image": "../images/New-Zealand-Flag.png",
-        "link": "Fry Cook"
+        "locked": true
     },
     {
         "id": 17,
         "title": "South Africa",
         "image": "../images/South-Africa-Flag.png",
-        "link": "Fry Cook"
+        "locked": true
     },
     {
         "id": 18,
         "title": "Chile",
         "image": "../images/Chile-Flag.png",
-        "link": "Fry Cook"
+        "locked": true
     },
     {
         "id": 19,
         "title": "Argentina",
         "image": "../images/Argentina-Flag.png",
-        "link": "Fry Cook"
+        "locked": true
     }
 ]

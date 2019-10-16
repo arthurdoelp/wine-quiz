@@ -34,6 +34,7 @@ class Lessons extends Component {
                                     id={unit.id}
                                     title={unit.title}
                                     image={unit.image}
+                                    locked={unit.locked}
                                 />
                             </div>
                         ))}

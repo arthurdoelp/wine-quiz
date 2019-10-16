@@ -29,6 +29,13 @@
     width: 75%;
 }
 
+.locked-image {
+    position: absolute;
+    width: 75%;
+    top: 0;
+    left: 12.5%;
+}
+
 .number {
     position: absolute;
     top: 50%;

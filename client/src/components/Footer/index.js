@@ -10,8 +10,9 @@ function Footer(props) {
                 <div className="footer-links">
                     <a href="/references">References</a>
                     <a>Terms</a>
-                    <a>Contact</a>
+                    <a href="mailto:arthur@arthurdoelp.com?Subject=USommelier%20Question">Contact</a>
                 </div>
+                <p>All rights reserved</p>
             </div>
         </footer>
         // <a href={`/lessons/${props.title}`}>
